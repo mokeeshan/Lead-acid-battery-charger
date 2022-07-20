@@ -1,5 +1,5 @@
 # Lead-acid-battery-charger
-Semester 4 electronics 3 project
+Semester 4 Electronics 3 Project
 
 Project Members:-
 
