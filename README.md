@@ -79,6 +79,9 @@ We are considering using a simple astable vibrator for triangular wave(near-appr
 generation and a comparator for PWM generation (with negative portion) and lastly, we are 
 considering using an adder circuit for both amplification and to remove the negative part.
 
+![im6pwn](https://user-images.githubusercontent.com/81348862/203001790-642791b6-b718-4a6a-bfd2-d580299f52cb.png)
+
+
 ### Constant current control
 
 Supplying a constant current to charge the battery is important. To accomplish this, we are considering 
@@ -89,6 +92,9 @@ inexpensiveness, simple circuit. We are trying to use a differential amplifying 
 values. After taking the error value we will apply this to an integrator circuit for Adjusting PWM signals. 
 Integrator is used because the manipulation of PWM needs to be done due to accumulation of error 
 rather than just by current instantaneous error.
+
+![im4cc](https://user-images.githubusercontent.com/81348862/203001608-9f9ab8e7-7fc5-4e3f-9589-93c1e54b5d47.png)
+
 
 ### Constant voltage control
 
@@ -102,6 +108,16 @@ The above details may change during the progress. The values that are selected a
 the specifications.
 The result will be created by combining the above results and adding further circuits for smoothening 
 and tuning purposes.
+
+![im5cv](https://user-images.githubusercontent.com/81348862/203001692-e84e9c52-3475-46e8-af7c-8b3da3184dca.png)
+
+### Switiching Circuit
+
+![im7sw](https://user-images.githubusercontent.com/81348862/203002120-c810e7cf-5cbf-424c-90fe-3c192172b6a0.png)
+
+
+### Simulation Circuit
+![im3](https://user-images.githubusercontent.com/81348862/202998566-a3fd4ab7-9819-4825-936f-9aa192fbf4e3.png)
 
 ### Testing Prototype
 
